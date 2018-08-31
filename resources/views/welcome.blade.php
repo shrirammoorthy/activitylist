@@ -80,13 +80,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome ToDo List Application
+                    Welcome Activity List Application
                 </div>
 				<div>
 					Please feel free about the tasks and leave with us.
 				</div>
                 <div class="links">
-                    Source Code - <a target="_blank" href="https://github.com/srkarthikg/todolistttt/">GitHub</a>
+                    Source Code - <a target="_blank" href="https://github.com/shrirammoorthy/activitylist">GitHub</a>
                 </div>
             </div>
         </div>
