@@ -70,7 +70,7 @@
                 <div class="top-right links">
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
-                        <a href="{{ url('/list') }}">ToDo List</a>
+                        <a href="{{ url('/list') }}">Activity List</a>
                     @else
                         <a class ="btn btn-primary" href="{{ url('/login') }}">Login</a>
                         <a class ="btn btn-primary" href="{{ url('/register') }}">Register</a>
@@ -80,7 +80,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome Activity List Application
+                    Welcome to Activity List Application
                 </div>
 				<div>
 					Please feel free about the tasks and leave with us.
