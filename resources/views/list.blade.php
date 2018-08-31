@@ -231,7 +231,7 @@
             $( function() {
             
                 $( "#searchItem" ).autocomplete({
-                    source: 'http://localhost/todo/public/search'
+                    source: 'http://localhost/activitylist/public/search'
                 });
             }); 
             
