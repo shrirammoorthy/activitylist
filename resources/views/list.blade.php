@@ -52,7 +52,7 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-                                        <a href="{{ url('/list') }}">ToDo List</a>
+                                        <a href="{{ url('/list') }}">Activity List</a>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -76,7 +76,7 @@
             <div class="col-lg-offset-3 col-lg-6">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="panel-success">ToDo List<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
+				    <h3 class="panel-success">Activity List<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
 				  </div>
 				  <div class="panel-body" id="items">
 				    @if(count($items)>0)
@@ -89,7 +89,7 @@
                             @endforeach
                         </ul>
                     @else
-                        <p>Todo list is empty please add some tasks.</p>
+                        <p>Activity list is empty please add some tasks.</p>
                     @endif  
                     No of Items : <?php echo count($items);?><br/>
                     Completed Items : <?php echo $completed;?><br/>
@@ -107,9 +107,9 @@
                         </div>
                         <div class="modal-body">
                             <input type="hidden" id="id">
-                            <p><input type="text" id="addItem" placeholder="Please enter todo tasks" class="form-control"></p>
+                            <p><input type="text" id="addItem" placeholder="Please enter to do tasks" class="form-control"></p>
 							
-                            <p>Please check the todo if tasks completed.<input type="checkbox" id="setItem" class="form-control"></p>
+                            <p>Please check the list if tasks completed.<input type="checkbox" id="setItem" class="form-control"></p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-Danger" data-dismiss="modal" style="display:none;" id="delete">Delete</button>
